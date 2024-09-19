@@ -2,7 +2,7 @@ def calcular_propina(total, porcentaje):
     return total * (porcentaje / 100)
 
 def main():
-    titulo = "Bienvenido a la Calculadora de Propinas"
+    titulo = "Calculadora de Propinas en CLP"
     print("\n" + titulo + "\n" + "-" * len(titulo) + "\n")
     
     # Solicitar el monto total
